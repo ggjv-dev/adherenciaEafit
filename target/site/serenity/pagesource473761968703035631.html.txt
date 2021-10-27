@@ -1,0 +1,21 @@
+<html lang="es-CO"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome para icono en el botón -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Definición de estilos para el botón -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Script para configuración de las acciónes del botón -->
+  <script src="script.js"></script>
+  <title>Inicio</title>
+</head>
+
+<body>
+  <div id="main" class="position">
+    <button id="mainbutton" class="button-style primary-button button-font" onclick="httpGetAsync()" style="border: 3px dashed red;">
+      Inicio
+    </button>
+  </div>
+
+
+</body></html>
